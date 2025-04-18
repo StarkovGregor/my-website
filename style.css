@@ -1,0 +1,17 @@
+.border-responsive-1 {
+    border-left: 20px solid #C9F2FF;
+  }
+  .border-responsive-2 {
+    border-left: 20px solid #C9D0FF;
+  }
+  
+  @media (min-width: 992px) {
+    .border-responsive-1 {
+      border-left: none;
+      border-top: 20px solid #C9F2FF;
+    }
+    .border-responsive-2 {
+      border-left: none;
+      border-top: 20px solid #C9D0FF;
+    }
+  }
